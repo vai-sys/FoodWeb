@@ -18,7 +18,7 @@ const Header = () => {
           <li>Network Status: {onlineStatus ? "✅" : "🔴"}</li>
           <li><NavLink to="/" className='nav-link' activeClassName='active'>Home</NavLink></li>
           <li><NavLink to="/About" className='nav-link' activeClassName='active'>About Us</NavLink></li>
-          <li><NavLink to="/Contact" className='nav-link' activeClassName='active'>Contact Us</NavLink></li>
+         
           <li><GrCart className='cart' /></li>
           <button className='login' onClick={() => {
             loginname === 'Login' ? setloginname('Logout') : setloginname('Login');

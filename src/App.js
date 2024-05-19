@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Body from './components/Body';
 import About from './components/About';
 import Error from './components/Error';
-import Contact from './components/Contact';
+
 import RestaurantMenu from './components/RestaurantMenu';
 import User from './components/User'
 function App() {
@@ -34,10 +34,7 @@ const router = createBrowserRouter([
           element: <User />, 
         }]
       },  
-      {
-        path: 'Contact',
-        element: <Contact />,
-      },
+      
       {
         path:"/restaurants/:resId",
         element:<RestaurantMenu/>
